@@ -9,7 +9,7 @@
           <input type="submit" name="submit" @click="submit($event)" value="Add new link">
         </form>
       </li>
-      <li v-for="link in links"><a :href="link.url" target="_blank">{{link.title}}</a></li>
+      <li v-for="(link, index) in links" :key="index"><a :href="link.url" target="_blank">{{link.title}}</a></li>
     </ul>
   </div>
 </template>

@@ -6,15 +6,15 @@
     "galaxy.meteor.com": {
         "env":{
             "HOME": "/",
-            "ROOT_URL": "http://localhost:3000",
+            "ROOT_URL": "https://thechatapp.eu.meteorapp.com",
             "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global",
             "PORT": "3000"
         }
     },
-    "us-east-1.galaxy-deploy.meteor.com": {
+    "eu-west-1.galaxy-deploy.meteor.com": {
         "env":{
             "HOME": "/",
-            "ROOT_URL": "http://localhost:3000",
+            "ROOT_URL": "https://thechatapp.eu.meteorapp.com",
             "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global",
             "PORT": "3000"
         }

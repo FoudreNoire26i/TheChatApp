@@ -27,3 +27,6 @@ accounts-facebook
 jquery
 vuejs:blaze-integration
 facebook-config-ui
+service-configuration
+accounts-google
+google-config-ui

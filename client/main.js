@@ -6,6 +6,13 @@ import App from '../imports/ui/App.vue'
 
 import VueRouter from 'vue-router';
 import { routes } from './router.js'
+import Links from '../imports/api/collections/Links';
+
+if (Meteor.isDevelopment){
+  window.Links = Links
+}
+
+
 
 Vue.use(VueRouter);
 
