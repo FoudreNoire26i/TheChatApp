@@ -1,0 +1,29 @@
+{
+    "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global",
+    "env":{
+        "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global"
+    },
+    "galaxy.meteor.com": {
+        "env":{
+            "HOME": "/",
+            "ROOT_URL": "http://localhost:3000",
+            "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global",
+            "PORT": "3000"
+        }
+    },
+    "us-east-1.galaxy-deploy.meteor.com": {
+        "env":{
+            "HOME": "/",
+            "ROOT_URL": "http://localhost:3000",
+            "MONGO_URL":"mongodb+srv://admin:ZoCIy8DvVKoOTcyz@cluster0.0fbol.mongodb.net/Global",
+            "PORT": "3000"
+        }
+    },
+    "packages": {
+        "mongo": {
+            "options": {
+                "tlsAllowInvalidCertificates": true
+            }
+        }
+    }
+}
