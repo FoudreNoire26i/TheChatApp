@@ -35,7 +35,7 @@ export default {
     },
     links () {
       return Links.find({})
-    },
+    }
   },
   methods: {
     submit(event) {

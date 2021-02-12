@@ -7,6 +7,7 @@ describe('Publish links', function () {
   beforeEach(function () {
     Links.remove({})
     Links.insert({
+      ownerId:"all",
       title: 'meteor homepage',
       url: 'https://www.meteor.com'
     })
